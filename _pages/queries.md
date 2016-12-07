@@ -47,7 +47,5 @@ permalink: /queries/
 <td>Filter by multiple values in Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&Sex=Females&api_key=DEMO_KEY1">here</a>.</td>
 </tr>
 
-
-</thead>
 </tbody>
 </table>
