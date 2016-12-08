@@ -8,7 +8,7 @@ permalink: /queries/
 <thead>
 <tr>
 <th>Clause</th>
-<th>What it does</th>
+<th>What it does!</th>
 </tr>
 </thead>
 <tbody>
