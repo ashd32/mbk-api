@@ -9,8 +9,8 @@ collections:
     permalink: /:path/
 
 # Title
-name: Template API Documentation
-subtitle: A Jekyll template for API documentation
+name: Beta
+subtitle: My Brother's Keeper APIs
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
