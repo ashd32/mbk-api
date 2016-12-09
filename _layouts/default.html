@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css">
+
 <!--
     <link rel="alternate" type="application/rss+xml" title=" » Feed" href="https://cfpb.github.io/feed/">
 -->
     <link rel="canonical" href="https://usedgov.github.io/">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat|Fjord+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko|Source+Serif+Pro|Source+Sans+Pro" rel="stylesheet">
+
 
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,23 +33,16 @@
   <body>
     <div class="container">
 
-      <div class="usa-disclaimer">
-    <div class="wrap">
-    <div class="usa-grid">
-      <span class="usa-disclaimer-official">
-        The official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a>, currently in beta.
-      </span>
-    </div>
-    </div>
-    </div>
+      <ul class="hub-menu-main">
+        <li class="hub-trigger">
+          <a id="colorChange" style="padding: 0; padding-top: 6px;" class="hub-icon" href="https://usedgov.github.io/">  <i style="font-size: 30px; padding-left: 3px;" class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+        </li>
+        <li><a class="" href="#APIs">APIs</a></li>
+        <li><a href="http://github.com/usedgov" target="_blank">Repos</a></li>
+        <li><a href="http://github.com/usedgov" target="_blank">News</a></li>
+      </ul>
 
-      <header role="banner">
-        <div class="wrap">
-          {% if site.logourl != null %}
-            <img class="logo" src="{{ site.logourl }}" alt="{{ site.logoalt }}">
-          {% endif %}
-          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-        </div>
+      <header role="banner" style="border: none; height: 74px;">
       </header>
 
 
@@ -60,11 +56,9 @@
 
       </div><!-- /.wrap content -->
 
-      <footer role="contentinfo">
+      <footer role="contentinfo" style="background-color: #1C1F2D; color: #fff;">
         <div class="wrap">
-          <p>This project is maintained by <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</p>
 
-          <p>Hosted on <a href="http://pages.github.com/">GitHub Pages</a>.</p>
         </div><!--/.wrap -->
       </footer>
     </div> <!-- /.container -->

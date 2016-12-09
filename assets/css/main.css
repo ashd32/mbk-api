@@ -116,7 +116,7 @@ a {
 a,
 a:link,
 a:visited {
-    color: #378FEE;
+    color: #838D9A;
     border-bottom: none;
     text-decoration: none;
 }
@@ -179,26 +179,32 @@ Navigation
   padding: 10px;
   -webkit-transition: unset;
   transition: unset;
+  font-family: 'Teko', Arial, Sans serif;
+  font-size: 14.5px;
+  text-transform: uppercase !important;
+  color: #909BA9;
+  letter-spacing: 1.98px;
 }
 .sidebar-nav a,
 .sidebar-nav a:link,
 .sidebar-nav a:visited {
   border-bottom: none;
-  color: #75787b;
+  color: #909BA9;
 }
 .sidebar-nav li:hover,
 .sidebar-nav a:focus,
 .sidebar-nav li:active,
 .sidebar-nav .sidebar-nav-active {
-  color: #378FEE;
-  border-left: 4px solid #378FEE;
+  color: #1FC97E;
+  border-left: 3px solid #1FC97E;
   background-color: transparent;
-  border-bottom: 1px solid #babbbd;
+  border-bottom: 1px solid #909BA9;
 }
 .sidebar-nav li:hover,
 .sidebar-nav li:active,
 .sidebar-nav .sidebar-nav-active {
-  padding-left: 0;
+  padding-left: 1px;
+  color: #1FC97E;
 }
 .sidebar-nav a:focus {
   padding-left: 6px;
@@ -215,7 +221,7 @@ Navigation
 }
 .sidebar-nav li {
   list-style: none;
-  border-bottom: 1px solid #babbbd;
+  border-bottom: 1px solid #909BA9;
   font-size: 1.125em;
   padding-left: 4px;
 }
@@ -321,8 +327,9 @@ Footer
 footer {
     display: table-row; /* for sticky footer */
     height: 1px; /* for sticky footer */
-    border-top: 2px solid #babbbd;
-    background: #f1f2f2;
+    border-top: none;
+    background-color: #1C1F2D;
+    color: #fff;
     width: 100%;
     font-size: 0.875em;
 }

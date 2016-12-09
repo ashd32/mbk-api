@@ -11,7 +11,9 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="css/syntax.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script src="/DOCter/assets/js/respond.min.js"></script>
@@ -20,31 +22,30 @@
   </head>
   <body>
     <div class="container">
-      <div class="usa-disclaimer">
-    <div class="wrap">
-    <div class="usa-grid">
-      <span class="usa-disclaimer-official">
+      <ul class="hub-menu-main">
+        <li class="hub-trigger">
+          <a id="colorChange" style="padding: 0; padding-top: 6px;" class="hub-icon" href="https://usedgov.github.io/">  <i style="font-size: 30px; padding-left: 3px;" class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+        </li>
+        <li><a class="" href="#APIs">APIs</a></li>
+        <li><a href="http://github.com/usedgov" target="_blank">Repos</a></li>
+        <li><a href="http://github.com/usedgov" target="_blank">News</a></li>
+      </ul>
 
-        The official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a>, currently in beta.
-      </span>
-    </div>
-  </div>
-</div>
 
-<header role="banner">
-  <div class="wrap">
-    {% if site.logourl != null %}
-      <img class="logo" src="{{ site.logourl }}" alt="{{ site.logoalt }}">
-    {% endif %}
-    <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-  </div>
+
+<header role="banner" style="border: none; height: 74px;">
 </header>
 
 
       <div class="wrap content">
 
         <aside>
-  <p class="intro">A Jekyll template for API documentation</p>
+
+          <h3 class="featured-project_head" style="margin-bottom: 0px;">
+              <a class="link link--mallki" href="https://collegescorecard.ed.gov/data/documentation/">College Scorecard API<span data-letters="College Scorecard API"></span><span data-letters="College Scorecard API"></span></a>
+
+
+          </h3>
   <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
   <nav class="sidebar-nav" role="navigation">
     <ul>
