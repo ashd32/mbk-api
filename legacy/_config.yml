@@ -1,0 +1,7 @@
+name: Department of Education - API Docs
+markdown: kramdown
+pygments: true
+safe: true
+baseurl: /
+exclude: ['.ruby-version', 'node_modules', 'package.json', 'bower.json']
+swaggerurl: https://autoapi-ed.apps.cloud.gov/swagger/
